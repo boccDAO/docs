@@ -1,4 +1,4 @@
-- ccpay 测试服务器地址为 **http://bcapay.com:8000**.
+- ccpay 测试服务器地址为 **http://bcapay.com/api**.
 
 # 获取 ETH 收款地址
 
