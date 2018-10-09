@@ -14,7 +14,7 @@ import hmac
 
 import requests
 
-c_server = "http://bcapay.com:8000"
+c_server = "http://bcapay.com/api"
 c_name = 'bcatest' # 替换为你的账户名
 c_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' # 替换为你的 secret
 
