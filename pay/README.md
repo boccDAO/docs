@@ -36,7 +36,7 @@ def sign(username, password, method, uri, date, content_md5=None):
     signstr = base64.b64encode(
         hmac.new(password.encode(), signstr.encode(), digestmod=hashlib.sha1).digest()
     ).decode()
-    return 'BOCC %s:%s' % (username, signstr)
+    return 'Merchant %s:%s' % (username, signstr)
 
 
 class Request:
